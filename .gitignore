@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.claude/
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite / DB
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+temp/
+tmp/
+
+# Ollama / models
+models/
+ollama/
+
+# Build files
+dist/
+build/
+
+# Cache
+.cache/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# LangChain/LangGraph artifacts
+langgraph.json
+

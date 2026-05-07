@@ -1,0 +1,26 @@
+ceo_agent/
+├── .env
+├── .venv/
+├── CEO_PROFILE.md
+├── MEMORY.md
+|bi_agent
+    |app.py
+    |setup_db.py
+    |sql_agent.py
+├── clients/
+│   ├── __init__.py
+│   ├── fallback_client.py
+├── db/
+│   ├── __init__.py
+│   ├── sql_client.py
+│   ├── vector_client.py
+├── frontend.py
+├── graph.py
+├── ingest.py
+├── ingest_tree.py
+├── main.py
+├── memory_manager.py
+├── nodes.py
+├── requirements.txt
+├── state.py
+└── tree_index.json
